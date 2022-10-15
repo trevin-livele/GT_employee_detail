@@ -1,0 +1,40 @@
+<mat-toolbar>
+    <button mat-icon-button *ngIf="sideNav.mode === 'over'" (click)="sideNav.toggle()">
+        <mat-icon *ngIf="!sideNav.opened"> menu </mat-icon>
+        <mat-icon *ngIf="sideNav.opened"> close </mat-icon>
+    </button>
+    <div class="logo">
+        <a a routerLink="/dashboard" class="simple-text logo-mini">
+            <div class="logo-img">
+                <img src="../../../assets/imgs/manager.png" alt="" />
+            </div>
+        </a>
+        <a class="simple-text text-detail logo-normal"> EMPLOYEE DETAILS PORTAL </a>
+    </div>
+    <div class="navigation">
+        <div></div>
+        <div>
+            <li class="name">
+    
+            </li>
+            <li class="email mb-1"></li>
+        </div>
+    </div>
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav opened #sideNav="matSidenav" class="mat-elevation-z8">
+        <!-- <button mat-button class="menu-button" a routerLink="/dashboard" routerLinkActive="active">
+            <fa-icon  [icon]="eyeIcon"></fa-icon>&nbsp;
+            <span>Dashboard</span>
+        </button> -->
+
+        <button mat-button class="menu-button" a routerLink="/employees/employee-detail" routerLinkActive="active">
+            <fa-icon  [icon]="employeeIcon"></fa-icon>&nbsp;
+            <span>Employees</span>
+        </button>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
