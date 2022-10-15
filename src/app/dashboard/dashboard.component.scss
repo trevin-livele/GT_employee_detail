@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+  }
+  
+
+  .main {
+    width: 70%;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 25%;
+    height: 25vh;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
+  
+  body {
+    background-color: #ccc;
+    font-family: sans-serif;
+    padding: 10px;
+  }
