@@ -21,9 +21,9 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="data">
+          <tr class="data" *ngFor="let employee of employees">
             <td>
-              <div class="ms-3">Trevin</div>
+              <div class="ms-3">{{employee.name}}</div>
             </td>
 
             <td>
