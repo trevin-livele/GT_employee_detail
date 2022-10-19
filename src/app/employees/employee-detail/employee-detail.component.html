@@ -17,7 +17,6 @@
             <th>address</th>
             <th>phone number</th>
             <th>marital status</th>
-            <th>DOB</th>
           </tr>
         </thead>
         <tbody>
@@ -27,27 +26,27 @@
             </td>
 
             <td>
-              <div class="ms-3">livele@gmail.com</div>
+              <div class="ms-3">{{employee.email}}</div>
             </td>
 
             <td>
-              <div class="ms-3">HR</div>
+              <div class="ms-3">{{employee.role}}</div>
             </td>
             <td>
-              <div class="ms-3">12345</div>
+              <div class="ms-3">{{employee.employeeNumber}}</div>
             </td>
             <td>
-              <div class="ms-3">juja</div>
+              <div class="ms-3">{{employee.address}}</div>
             </td>
             <td>
-              <div class="ms-3">0792691810</div>
+              <div class="ms-3">{{employee.phone}}</div>
             </td>
             <td>
-              <div class="ms-3">single</div>
+              <div class="ms-3">{{employee.maritalStatus}}</div>
             </td>
-            <td>
-              <div class="ms-3">12/12/1999</div>
-            </td>
+            <!-- <td>
+              <div class="ms-3">{{employee.date_of_birth }}</div>
+            </td> -->
           </tr>
         </tbody>
       </table>

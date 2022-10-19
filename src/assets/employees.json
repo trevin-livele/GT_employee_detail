@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "trevin",
+    "email": "liveletrevin6@gmail.com",
+    "role": 1,
+    "employeeNumber": 54674,
+    "address": "juja",
+    "phoneNumber": "0792691810",
+    "maritalStatus" : "single",
+    "DOB" : "12/12/1999"
+  },
+  {
+    "id": 1,
+    "name": "trevin",
+    "email": "liveletrevin6@gmail.com",
+    "role": "hr",
+    "employeeNumber": 54674,
+    "address": "juja",
+    "phoneNumber": "0792691810",
+    "maritalStatus" : "single",
+    "DOB" : "12/12/1999"
+  },
+  {
+    "id": 1,
+    "name": "trevin",
+    "email": "liveletrevin6@gmail.com",
+    "role": 1,
+    "employeeNumber": 54674,
+    "address": "juja",
+    "phoneNumber": "0792691810",
+    "maritalStatus" : "single",
+    "DOB" : "12/12/1999"
+  }
+]
+

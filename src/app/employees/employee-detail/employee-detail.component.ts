@@ -9,7 +9,7 @@ import { AddNewEmployeeComponent } from '../add-new-employee/add-new-employee.co
   styleUrls: ['./employee-detail.component.scss']
 })
 export class EmployeeDetailComponent implements OnInit {
-  public employees =  [];
+  public employees: any =  [];
   constructor(private dialog : MatDialog,private employeeService: EmployeeServiceService) { }
 
   ngOnInit(): void {
